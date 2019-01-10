@@ -1,0 +1,210 @@
+html{
+    height: 100vh;
+}
+
+body {
+    height: 100vh;
+    min-height: 100%;
+    max-height:  100%;
+    margin : 0;
+    padding : 0;
+}
+
+.container {
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    float: left;
+}
+
+
+.leftbar {
+    background-color: #dde2eb;
+    width: 25%;
+    float: left;
+    position: relative;
+    height: 100vh;
+    min-height: 100vh;
+}
+
+.lefthead {
+    background-color: #bdbdbd;
+    padding: 15px 0;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.lefttitle {
+    color: #4e4747;
+    margin-left: 35px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.leftfilter {
+background-color:#003399;
+    color: #FFFFFF;
+    margin-left: 128px;
+    font-size: 14px;
+    font-weight: bold;
+	border-radius: 25px;
+}
+
+.itemadd {
+    background: url(../images/plus.png) center center no-repeat;
+    border: 0;
+    height: 26px;
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    width: 26px;
+}
+
+
+.sidenav {
+    max-height: 84vh;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+}
+
+.sidenav li {
+    list-style: none;
+    background-color: #f3f1f1;
+    border-bottom: 1px solid #e2dada;
+    border-right: 1px solid #e2dada;
+    padding: 0px 5px;
+    position: relative;
+    cursor: move;
+}
+
+.sidenav li a {
+    text-decoration: none;
+    color: #4e4747;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0px;
+    cursor: move;
+}
+
+.sidenav li:before {
+    content: url(../images/li_img.png);
+    margin-left: 5px;
+    cursor: move;
+    position: absolute;
+    top: 8px;
+}
+
+.nav-item.active {
+  background: #4e4747;
+}
+
+.nav-item.active a{
+  color: #fff; 
+}
+
+.nav-item a span {
+    margin-left: 32px;
+}
+.rightarea {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
+.remove-btn {
+  background: url('../images/delete.png') center center no-repeat;
+  width: 14px;
+  height: 14px;
+  border: 0;
+}
+
+
+
+
+.left-footer {
+  position: absolute;
+  background: #4e4747;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.left-footer-title {
+    color: #fff;
+    width: 14%;
+    float: left;
+    padding: 3px 0;
+    margin-left: 8px;
+}
+
+.filterarea {
+    position: relative;
+    width: 82%;
+    float: left;
+}
+
+
+
+.content-area {
+  width: 75%;
+  min-height: 100vh;
+  float: left;
+  height: 100vh;
+  background: #f1f3f4;
+}
+.content-header {
+  width: 100%;
+  background: #a0a0a0;
+  display: inline-block;
+}
+
+
+
+
+.maintab li {
+    font-size: 12px;
+    display: list-item;
+    list-style: none;
+    background: #dedede80;
+    float: left;
+    padding: 10px;
+    border-radius: 8px 8px 0px 0px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #4e4747;
+}
+
+.maintab {
+  padding: 0;
+}
+
+.maintab li:first-child{
+  margin-left : 10px;
+}
+
+.maintab li.active{
+  background: #f1f3f4;
+  color: #4e4747;
+}
+
+.filter {
+    border-radius: 15px;
+    border: 0;
+    width: 90%;
+    padding: 5px 0 5px 15px;
+}
+
+.remove-icon {
+  position: absolute;
+  background: url(../images/delete.png) center center no-repeat;
+  width: 14px;
+  height: 14px;
+  border: 0;
+  top: 6px;
+  right: 17px;
+  display: none;
+}
